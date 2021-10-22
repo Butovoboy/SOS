@@ -1,0 +1,87 @@
+    1  ll
+    2  ls -l
+    3  cd /
+    4  ll
+    5  vim
+    6  yum install vim
+    7  sudo yum install vim
+    8  sudo su
+    9  sudo root
+   10  exit
+   11  sudo su
+   12  exit
+   13  sudo su
+   14  exit
+   15  exit
+   16  ls
+   17  mkdir test
+   18  cd test/
+   19  touch file && ll
+   20  chmod 000 file
+   21  ll
+   22  echo "test" > file
+   23  cat file
+   24  chmod 200
+   25  chmod 200 file
+   26  ll
+   27  chmod 230 file && ll
+   28  chmod 210 file && ll
+   29  chmod 240 file && ll
+   30  cat file
+   31  chmod 640 file && ll
+   32  cat file
+   33  echo "test" > file
+   34  cat file
+   35  mkdir dir
+   36  cd dir
+   37  touch new_file && echo "file 2" > newfile
+   38  ll
+   39  touch new_file && echo "file 2" > new_file
+   40  cat new_file 
+   41  rm newfile 
+   42  ll
+   43  chmod -h
+   44  chmod --help
+   45  cd ..
+   46  ll
+   47  chmod 664 dir
+   48  ll
+   49  cat dir/new_file 
+   50  chown root file && chgrp root file
+   51  chown root:root file
+   52  ll
+   53  sudo chown root:root file
+   54  ll
+   55  umask 200
+   56  umask 600 
+   57  touch file1
+   58  ll
+   59  umask 006
+   60  touch file2
+   61  ll
+   62  rm file1 file2
+   63  sudo rm file1 file2
+   64  ls
+   65  umask 066
+   66  touch file1
+   67  ll
+   68  umask 000
+   69  touch file2
+   70  ll
+   71  sudo yum install tmux
+   72  tmux
+   73  sudo yum install tmux
+   74  ping google.com
+   75  sudo su
+   76  cat file
+   77  sudo su
+   78  cat file
+   79  sudo chgrp butovoboy file
+   80  ll
+   81  cat file
+   82  ls -lR
+   83  ls ~/
+   84  ls -lR > ../lab2_ls.txt
+   85  rm ../lab2_ls.txt 
+   86  ls -lR &> ../lab2_ls.txt
+   87  history &> ../lab2_history.txt

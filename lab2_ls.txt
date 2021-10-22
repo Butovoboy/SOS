@@ -1,0 +1,11 @@
+.:
+total 4
+drw-rw-r--. 2 butovoboy butovoboy 22 Oct  5 23:16 dir
+-r--r-----. 1 root      butovoboy  5 Oct  5 23:12 file
+-rw-------. 1 butovoboy butovoboy  0 Oct  5 23:34 file1
+-rw-rw-rw-. 1 butovoboy butovoboy  0 Oct  5 23:35 file2
+
+./dir:
+ls: cannot access ./dir/new_file: Permission denied
+total 0
+-????????? ? ? ? ?            ? new_file
